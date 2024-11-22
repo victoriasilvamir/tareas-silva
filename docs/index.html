@@ -1,55 +1,122 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Curriculum</title>
-    <link href="estilo.css" rel="stylesheet" />
-    <meta charset="utf-8">
-    <style>
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: relative; /* Evita que flote sobre el contenido */
-            bottom: 0;
-            width: 100%;
-        }
-
-        body {
-            margin-bottom: 50px; /* Añade espacio para el footer */
-        }
-    </style>
+    <meta charset="UTF-8">
+    <title>Curriculum Vitae de Victoria Silva Mir</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <h1>CV Victoria Silva Mir</h1>
+    <div class="cv">
+        <!-- Columna Izquierda -->
+        <div class="cv_left">
+            <header>
+                <div>
+                    <img src="FOTO.JPG" alt="Foto de Victoria Silva" width="150">
+                </div>
+                <div class="cv_content">
+                    <!-- Información Personal -->
+                    <div class="cv_item">
+                        <div class="title">
+                            <h1>Victoria Silva Mir</h1>
+                            <p>Estudiante de Comunicaciones y Periodismo</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <div class="data">Chile</div>
+                            </li>
+                            <li>
+                                <div class="icon"><i class="fas fa-mobile-alt"></i></div>
+                                <div class="data">+56 9 12345678</div>
+                            </li>
+                            <li>
+                                <div class="icon"><i class="fas fa-envelope"></i></div>
+                                <div class="data">victoria.silva@uc.cl</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Habilidades -->
+                    <div class="cv_item">
+                        <div class="title">
+                            <p><b>Habilidades</b></p>
+                        </div>
+                        <ul>
+                            <li>Liderazgo</li>
+                            <li>Responsabilidad</li>
+                            <li>Proactividad</li>
+                        </ul>
+                    </div>
 
-    <img src="FOTO.JPG" alt="Foto Victoria Silva" width="200">
-    <p id="grande" class="color-verde">Actualmente estudiante de College en Ciencias Sociales, realizando un Major en Comunicaciones y un Minor en Periodismo</p> 
-    <a href="https://vma.cl/">
-        Estudios Enseñanza Básica y Media en Colegio Villa Maria Academy
-    </a>
-    <p>
-        <a href="https://www.uc.cl/">
-            Estudios actualmente en Universidad Católica, College Ciencias Sociales y Periodismo
-        </a>
-    </p>
-
-    <h2>
-        <b>Características</b>
-        <ul>
-            <li> Líder</li>
-            <li> Responsable</li>
-            <li> Proactiva</li>
-        </ul>
-    </h2>
-
-    <p>Experiencia: Clases de inglés y matemáticas particulares durante 4 años consecutivos</p>
-
-    <p>Participación en CUM (Construyendo una misión), proyecto realizado por el colegio Verbo Divino y Villa María</p>
-    <p>Presidenta de curso durante tercero y cuarto medio</p>
-
-    <footer>
-        &copy; 2024 Victoria Silva Mir. Todos los derechos reservados.
-    </footer>
+                    <!-- Intereses -->
+                    <div class="cv_item">
+                        <div class="title">
+                            <p><b>Intereses</b></p>
+                        </div>
+                        <ul>
+                            <li>Comunicación</li>
+                            <li>Trabajo en equipo</li>
+                            <li>Educación</li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <!-- Columna Derecha -->
+        <div class="cv_right">
+            <div class="cv_item">
+                <div class="title">
+                    <p class="bold">Perfil</p>
+                </div>
+                <ul>
+                    <li>Proactiva, organizada y comprometida con el desarrollo personal y profesional.</li>
+                    <li>Interesada en promover la comunicación y el aprendizaje continuo.</li>
+                </ul>
+            </div>
+            <!-- Estudios -->
+            <div class="cv_item">
+                <div class="title">
+                    <p class="bold">Educación</p>
+                </div>
+                <ul>
+                    <li>
+                        <p class="semi-bold"><a href="https://www.uc.cl/">Pontificia Universidad Católica de Chile</a></p>
+                        <p>Estudiante de College en Ciencias Sociales, Major en Comunicaciones y Minor en Periodismo</p>
+                        <div class="date">2021 - Presente | Santiago, Chile</div>
+                    </li>
+                    <li>
+                        <p class="semi-bold"><a href="https://vma.cl/">Villa María Academy</a></p>
+                        <p>Enseñanza Básica y Media</p>
+                        <div class="date">2007 - 2020 | Santiago, Chile</div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Experiencia -->
+            <div class="cv_item">
+                <div class="title">
+                    <p class="bold">Experiencia</p>
+                </div>
+                <ul>
+                    <li>
+                        <p>Clases particulares de inglés y matemáticas</p>
+                        <div class="date">2018 - 2022 | Santiago, Chile</div>
+                        <div class="info">Impartí clases personalizadas durante 4 años consecutivos, apoyando a estudiantes en su desarrollo académico.</div>
+                    </li>
+                    <li>
+                        <p>Participación en CUM (Construyendo una Misión)</p>
+                        <div class="date">2020 | Santiago, Chile</div>
+                        <div class="info">Colaboré en proyectos sociales organizados por el Colegio Verbo Divino y Villa María Academy.</div>
+                    </li>
+                    <li>
+                        <p>Presidenta de curso</p>
+                        <div class="date">2019 - 2020 | Santiago, Chile</div>
+                        <div class="info">Lideré a mi curso en la planificación y ejecución de actividades escolares.</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>Victoria Silva Mir CV 2024 | Todos los derechos reservados.</footer>
 </body>
 </html>
