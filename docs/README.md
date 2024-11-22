@@ -1,5 +1,5 @@
 # Tarea 03 parte B: Curriculum Vitae
-Blanca Ward
+Victoria Silva
 
 ## Descripción
 
