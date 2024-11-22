@@ -26,4 +26,6 @@ Estructura: Le pedi a Chat GPT que me ayduara y me dijo que aplique flexbx para 
 # Sección de Footer
 En el pie de pagina use el codigo <footer> y le añadi mi nombre, el año y un diseño para mantener la formalidad
 
+# Link al Curriculum: 
+https://victoriasilvamir.github.io/tareas-silva/
 Me gusto y aprendi mucho con esta tarea, quede muy feliz. 
