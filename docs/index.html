@@ -1,191 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae - Victoria Silva Mir</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-
-        .cv-container {
-            display: flex;
-            flex-wrap: wrap;
-            max-width: 1000px;
-            margin: 20px auto;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            background: white;
-        }
-
-        .cv-left {
-            flex: 1;
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
-        }
-
-        .cv-left img {
-            display: block;
-            margin: 0 auto 20px;
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-        }
-
-        .cv-left h1 {
-            text-align: center;
-            margin-bottom: 10px;
-        }
-
-        .cv-left ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .cv-left li {
-            display: flex;
-            align-items: center;
-            margin-bottom: 15px;
-        }
-
-        .cv-left .icon {
-            margin-right: 10px;
-        }
-
-        .cv-left h2 {
-            margin-top: 30px;
-            font-size: 18px;
-            text-transform: uppercase;
-        }
-
-        .cv-left ul.skills,
-        .cv-left ul.interests {
-            list-style: square;
-            padding-left: 20px;
-        }
-
-        .cv-right {
-            flex: 2;
-            padding: 20px;
-        }
-
-        .cv-right h2 {
-            border-bottom: 2px solid #4CAF50;
-            margin-bottom: 15px;
-            font-size: 20px;
-        }
-
-        .cv-right .item {
-            margin-bottom: 20px;
-        }
-
-        .cv-right .item p {
-            margin: 5px 0;
-        }
-
-        .cv-right .date {
-            font-size: 14px;
-            color: gray;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: white;
-            font-size: 14px;
-        }
-
-        a {
-            color: #4CAF50;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <div class="cv-container">
-        <!-- Columna Izquierda -->
-        <div class="cv-left">
-            <img src="FOTO.JPG" alt="Foto de Victoria Silva">
-            <h1>Victoria Silva Mir</h1>
-            <p>Estudiante de Comunicaciones y Periodismo</p>
-
-            <ul>
-                <li>
-                    <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
-                    <div class="data">Chile</div>
-                </li>
-                <li>
-                    <div class="icon"><i class="fas fa-mobile-alt"></i></div>
-                    <div class="data">+56 9 76444628</div>
-                </li>
-                <li>
-                    <div class="icon"><i class="fas fa-envelope"></i></div>
-                    <div class="data">victoria.silva@uc.cl</div>
-                </li>
-            </ul>
-
-            <h2>Habilidades</h2>
-            <ul class="skills">
-                <li>Liderazgo</li>
-                <li>Responsabilidad</li>
-                <li>Proactividad</li>
-            </ul>
-
-            <h2>Intereses</h2>
-            <ul class="interests">
-                <li>Comunicación</li>
-                <li>Trabajo en equipo</li>
-                <li>Educación</li>
-            </ul>
+    <div class="cv">
+        <!-- Lado Izquierdo -->
+        <div class="cv_left">
+            <header>
+                <div class="foto">
+                    <img src="FOTO.JPG" alt="Foto de Victoria Silva" width="150">
+                </div>
+                <div class="cv_content">
+                    <div class="cv_item">
+                        <h1>Victoria Silva Mir</h1>
+                        <p>Estudiante de Comunicaciones y Periodismo</p>
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt"></i> Chile</li>
+                            <li><i class="fas fa-phone-alt"></i> +56 9 12345678</li>
+                            <li><i class="fas fa-envelope"></i> victoria.silva@uc.cl</li>
+                        </ul>
+                    </div>
+                    <div class="cv_item">
+                        <h2>Habilidades</h2>
+                        <ul>
+                            <li>Liderazgo</li>
+                            <li>Proactividad</li>
+                            <li>Responsabilidad</li>
+                        </ul>
+                    </div>
+                    <div class="cv_item">
+                        <h2>Intereses</h2>
+                        <ul>
+                            <li>Actualidad Nacional</li>
+                            <li>Investigación Periodística</li>
+                            <li>Colaboración Social</li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
         </div>
 
-        <!-- Columna Derecha -->
-        <div class="cv-right">
-            <div class="item">
+        <!-- Lado Derecho -->
+        <div class="cv_right">
+            <div class="cv_item">
                 <h2>Perfil</h2>
-                <p>Mujer dinamica, organizada y con capacidad de liderar. Siempre dispuesta a mejorar y ayudar al resto.</p>
+                <p>Soy una persona proactiva, organizada y apasionada por la comunicación. Busco generar impacto positivo en la sociedad a través del periodismo.</p>
             </div>
-
-            <div class="item">
+            <div class="cv_item">
                 <h2>Educación</h2>
-                <p><strong>Pontificia Universidad Católica de Chile</strong> - <a href="https://www.uc.cl/">College en Ciencias Sociales</a></p>
-                <p>Major en Comunicaciones y Minor en Periodismo</p>
-                <p class="date">2021 - Presente</p>
-
-                <p><strong>Villa María Academy</strong> - <a href="https://vma.cl/">Enseñanza Básica y Media</a></p>
-                <p class="date">2007 - 2020</p>
+                <ul>
+                    <li>
+                        <h3>Pontificia Universidad Católica de Chile</h3>
+                        <p>Major en Comunicaciones y Minor en Periodismo</p>
+                        <span>2021 - Presente</span>
+                    </li>
+                    <li>
+                        <h3>Colegio Villa Maria Academy</h3>
+                        <p>Enseñanza Básica y Media</p>
+                        <span>2008 - 2020</span>
+                    </li>
+                </ul>
             </div>
-
-            <div class="item">
+            <div class="cv_item">
                 <h2>Experiencia</h2>
-                <p><strong>Clases Particulares</strong> - Inglés y Matemáticas</p>
-                <p>Impartí clases personalizadas durante 4 años consecutivos.</p>
-                <p class="date">2018 - 2022</p>
-
-                <p><strong>Construyendo una Misión (CUM)</strong></p>
-                <p>Participación en proyectos sociales con el Colegio Verbo Divino y Villa María Academy.</p>
-                <p class="date">2020</p>
-
-                <p><strong>Presidenta de Curso</strong></p>
-                <p>Lideré actividades escolares y representé a mi curso en diversas instancias.</p>
-                <p class="date">2019 - 2020</p>
+                <ul>
+                    <li>
+                        <h3>Clases Particulares</h3>
+                        <p>Profesora de inglés y matemáticas por 4 años consecutivos.</p>
+                        <span>2018 - 2022</span>
+                    </li>
+                    <li>
+                        <h3>Presidenta de Curso</h3>
+                        <p>Encargada de liderar actividades y representar al curso en tercero y cuarto medio.</p>
+                        <span>2019 - 2020</span>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
     <footer>
-        &copy; 2024 Victoria Silva Mir | Todos los derechos reservados.
+        &copy; 2024 Victoria Silva Mir. Todos los derechos reservados.
     </footer>
 </body>
 </html>
+
